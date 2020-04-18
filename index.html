@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="./menu.css">
     <link rel="stylesheet" type="text/css" href="./banner.css">
     <link rel="stylesheet" type="text/css" href="./styles.css">
+    <link rel="stylesheet" type="text/css" href="./about-content.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,300&family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -63,6 +64,77 @@
             <h2 class="hanoi">base in Ha Noi</h2>
         </div>
     </div>
+    <div class="about-wrapper">
+        <div class="content-inner">
+            <div class="img-about">
+                <div class="img"></div>
+            </div>
+            <div class="content-about">
+                <div class="inner-about">
+                    <h2 class="title">About Me</h2>
+                    <p class="sub-title">There are many variations of passages of Lorem Ipsum available, but the majority have suffered <a href="#">alteration</a> in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going
+                        to use a passage of Lorem Ipsum,</p>
+                </div>
+                <div class="inner-skill">
+                    <div class="tab">
+                        <button class="tablinks active" onclick="openSkill(event, 'mainskill')">Main skills</button>
+                        <button class="tablinks" onclick="openSkill(event, 'experi')">Experience</button>
+                        <button class="tablinks" onclick="openSkill(event, 'acti')">Activity</button>
+                        <button class="tablinks" onclick="openSkill(event, 'soft')">Language</button>
+
+                    </div>
+                    <div id="mainskill" class="tabcontent" style="display: block;">
+                        <h3>User experience design - UI/UX</h3>
+                        <p>Deliht the user and do not make user think.</p>
+
+                        <h3>Web and user interface design - Development</h3>
+                        <p>Website, web experience.</p>
+
+                        <h3>Design</h3>
+                        <p>Create a new things with simple.</p>
+                    </div>
+
+                    <div id="experi" class="tabcontent">
+                        <h3>Intern Front End Developer - 2019</h3>
+                        <p>KiddiCode Co.</p>
+
+                        <h3>Intern Business Analyst - 2019</h3>
+                        <p>BluCo Company</p>
+                    </div>
+
+                    <div id="acti" class="tabcontent">
+                        <h3>Google IO Extended Hanoi 2016</h3>
+                        <p>Collaborator.</p>
+
+                        <h3>Google IO Extended Hanoi -2017 -2018</h3>
+                        <p>Organizer.</p>
+
+                        <h3>Google DevFes 2017</h3>
+                        <p>Organizer.</p>
+
+                        <h3>Quest Music Festival -2016 -2017 -2018</h3>
+                        <p>Production Assistant.</p>
+                    </div>
+
+                    <div id="soft" class="tabcontent">
+                        <h3>Vietnamese</h3>
+                        <p>Native</p>
+
+                        <h3>English</h3>
+                        <p>IELTS : 6.0</p>
+
+                        <h3>Japanes</h3>
+                        <p>JLPT : N5</p>
+
+                        <h3>Français - French</h3>
+                        <p>DELF : A2</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
+<script src="./about.js"></script>
 
 </html>
