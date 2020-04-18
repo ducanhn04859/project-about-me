@@ -1,0 +1,48 @@
+.content-banner {
+    height: 905px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    vertical-align: middle;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+    background-color: #1F1F16;
+    background-image: url(./img/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+.content-banner .inner-cont {
+    float: left;
+    padding-left: 50px;
+}
+
+.content-banner .inner-cont .welcome {
+    color: rgba(198, 201, 216, .75);
+    font-size: 15px;
+    letter-spacing: 4px;
+}
+
+.content-banner .inner-cont .name {
+    color: rgb(255, 255, 255);
+    font-size: 54px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0;
+}
+
+.content-banner .inner-cont .job {
+    color: rgb(249, 0, 77);
+    font-size: 54px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.content-banner .inner-cont .hanoi {
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 54px;
+    margin-top: 10px;
+    font-weight: 700;
+}
