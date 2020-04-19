@@ -1,5 +1,5 @@
 .about-wrapper {
-    background-color: #191919;
+    background-color: black;
     height: 650px;
 }
 
@@ -17,7 +17,7 @@
 }
 
 .about-wrapper .content-inner .img-about .img {
-    background-image: url(./img/IMG_3215.jpg);
+    background-image: url(../img/IMG_3215.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 504px;

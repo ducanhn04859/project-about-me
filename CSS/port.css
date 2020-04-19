@@ -1,0 +1,105 @@
+body {
+    background-color: #191919;
+}
+
+.block1 {
+    width: 100%;
+    color: #FFFF;
+    text-align: center;
+    margin-top: 70px;
+    background-color: #191919;
+}
+
+.block2 {
+    width: 1000px;
+    height: 600px;
+    margin: 0px 50px;
+    display: grid;
+    grid-template-columns: 27em 27em 27em;
+    background-color: #191919;
+}
+
+.block1 h1 {
+    font-family: Poppins, sans-serif;
+    font-size: 60px;
+    line-height: 84px;
+    font-weight: 1000px;
+    letter-spacing: 10px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.block-wrapper {
+    width: 390px;
+    height: 500px;
+    background-color: #DDD;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    color: #FFF;
+    margin-top: 40px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    transition-duration: 0.5s;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.block-wrapper .overlay {
+    height: 500px;
+    width: 390px;
+    background: rgb(246, 0, 76);
+    background: linear-gradient(180deg, rgba(246, 0, 76, 0.8323704481792717) 0%, rgba(0, 0, 0, 0.6446953781512605) 82%);
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition-duration: 0.5s;
+    border-radius: 5px;
+}
+
+.block-wrapper:hover .overlay {
+    opacity: 1;
+    transform: scale(1, 1);
+}
+
+.block-wrapper:hover {
+    opacity: 0.8;
+    transform: scale(1.1, 1.1);
+}
+
+.block-wrapper .content {
+    width: 200px;
+    width: 390px;
+    opacity: 1;
+    margin: 0;
+    padding: 0 20px;
+    position: absolute;
+    top: 320px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block-wrapper .content .subtitle,
+.block1 span {
+    color: rgb(198, 201, 216);
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.block-wrapper .content .title {
+    color: #FFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    line-height: 36px;
+}
+
+.block1 span {
+    font-size: 15px;
+}
