@@ -2,7 +2,7 @@
 .menu-left,
 .menu-right {
     display: flex;
-    background: rgba(0, 0, 0, 1);
+    background-color: #1F1F16;
     height: 50px;
 }
 
@@ -19,9 +19,9 @@
 }
 
 .logo {
-    width: 40px;
-    height: 40px;
-    background-image: url(./img/logo.png);
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/logo1.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -81,13 +81,13 @@ a:active {
 }
 
 .menu-right .social-menu .socail-but .fb {
-    background-image: url(./img/fb-logo1.png);
+    background-image: url(../img/fb-logo1.png);
 }
 
 .menu-right .social-menu .socail-but .ins {
-    background-image: url(./img/ins-logo1.png);
+    background-image: url(../img/ins-logo1.png);
 }
 
 .menu-right .social-menu .socail-but .ink {
-    background-image: url(./img/ink-logo1.png);
+    background-image: url(../img/ink-logo1.png);
 }

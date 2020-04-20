@@ -1,0 +1,81 @@
+.footer-wrapper {
+    display: grid;
+    grid-template-columns: 30em 30em 30em;
+    background-color: black;
+    height: 80px;
+}
+
+.footer-wrapper .menu-left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 35px;
+    background-color: black;
+}
+
+.footer-wrapper .menu-center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-right: 25px;
+    background-color: black;
+}
+
+.footer-wrapper .menu-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #C6C8D9;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    line-height: 30px;
+    background-color: black;
+    padding-top: 10px;
+}
+
+.footer-wrapper .logo {
+    width: 200px;
+    height: 50px;
+    background-image: url(../img/logo3.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 10px;
+}
+
+.footer-wrapper .menu-center .social-menu .socail-but {
+    display: flex;
+    list-style: none;
+    font-family: sans-serif;
+    align-items: center;
+    color: #FFFF;
+}
+
+.footer-wrapper .menu-center .social-menu .socail-but a {
+    padding: 16px 20px;
+    text-decoration: none;
+}
+
+.footer-wrapper .menu-center .social-menu .socail-but .fb,
+.ins,
+.ink {
+    height: 28px;
+    width: 28px;
+    padding-right: 35px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.footer-wrapper .menu-center .social-menu .socail-but .fb {
+    background-image: url(../img/fb2.png);
+}
+
+.footer-wrapper .menu-center .social-menu .socail-but .ins {
+    background-image: url(../img/inst2.png);
+}
+
+.footer-wrapper .menu-center .social-menu .socail-but .ink {
+    background-image: url(../img/ink2.png);
+}
