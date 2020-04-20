@@ -6,19 +6,19 @@
     height: 50px;
 }
 
-.menu-left {
+.menu-wrapper .menu-left {
     justify-content: flex-start;
     padding-left: 35px;
     flex-grow: 2;
 }
 
-.menu-right {
+.menu-wrapper .menu-right {
     justify-content: flex-end;
     flex-grow: 1;
     padding-right: 25px;
 }
 
-.logo {
+.menu-wrapper .logo {
     width: 50px;
     height: 50px;
     background-image: url(../img/logo1.png);
@@ -28,7 +28,7 @@
     padding-top: 10px;
 }
 
-.main-menu-na .mainmenu {
+.menu-wrapper .main-menu-na .mainmenu {
     display: flex;
     padding-left: 35px;
     list-style: none;
@@ -37,29 +37,29 @@
     color: #FFFF;
 }
 
-.main-menu-na .mainmenu a {
+.menu-wrapper .main-menu-na .mainmenu a {
     padding: 10px 16px;
     text-decoration: none;
 }
 
-.main-menu-na .mainmenu a:link,
+.menu-wrapper .main-menu-na .mainmenu a:link,
 a:visited,
 a:active {
     color: #FFFF;
     font-size: 15px;
 }
 
-.main-menu-na .mainmenu a:hover {
+.menu-wrapper .main-menu-na .mainmenu a:hover {
     color: #D63C6C;
     font-size: 20px;
     border-bottom: 2px solid #D63C6C;
 }
 
-.main-menu-na .mainmenu li {
+.menu-wrapper .main-menu-na .mainmenu li {
     color: #FFFF;
 }
 
-.menu-right .social-menu .socail-but {
+.menu-wrapper .menu-right .social-menu .socail-but {
     display: flex;
     list-style: none;
     font-family: sans-serif;
@@ -67,12 +67,12 @@ a:active {
     color: #FFFF;
 }
 
-.menu-right .social-menu .socail-but a {
+.menu-wrapper .menu-right .social-menu .socail-but a {
     padding: 16px 20px;
     text-decoration: none;
 }
 
-.menu-right .social-menu .socail-but .fb,
+.menu-wrapper .menu-right .social-menu .socail-but .fb,
 .ins,
 .ink {
     background-size: contain;
@@ -80,14 +80,18 @@ a:active {
     background-repeat: no-repeat;
 }
 
-.menu-right .social-menu .socail-but .fb {
-    background-image: url(../img/fb-logo1.png);
+.menu-wrapper .menu-right .social-menu .socail-but .fb {
+    background-image: url(../img/logo-fb.png);
 }
 
-.menu-right .social-menu .socail-but .ins {
-    background-image: url(../img/ins-logo1.png);
+.menu-wrapper .menu-right .social-menu .socail-but .ins {
+    background-image: url(../img/logo-ins1.png);
+    width: 20px;
+    height: 20px;
 }
 
-.menu-right .social-menu .socail-but .ink {
-    background-image: url(../img/ink-logo1.png);
+.menu-wrapper .menu-right .social-menu .socail-but .ink {
+    background-image: url(../img/logo-ink1.png);
+    width: 20px;
+    height: 20px;
 }
