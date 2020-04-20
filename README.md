@@ -7,8 +7,11 @@ https://web-project-coderx.firebaseapp.com.
 
 Description
 
-This project applying knowledge from fundamental course on CoderX. 
-Hosting of web use on Google Firebase
+This project applying knowledge from fundamental course on CoderX. including technique: 
++ HTML 5
++ CSS
++ Javascrip
++ Firebase : Hosting of web use on Google Firebase
 
 
 Versioning
