@@ -23,6 +23,7 @@ In the feature I am developing Version 2.0 with some updates:
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Or you can send me email to improve my project 
+
 Email : ducanhn130897@gmail.com
 
 ## Authors
