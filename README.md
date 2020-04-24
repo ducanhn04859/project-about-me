@@ -1,26 +1,29 @@
-# Project Web - Final CSS CoderX
+# Project Web - Final CSS Coders-X
 
-Getting Started
+Project Web - Final CSS Coders-X is my practice excercise create a website by my myself and using knowlege of HTML and CSS for this project
 
-This is very easy to view my website. Please cick on link below: 
-https://web-project-coderx.firebaseapp.com.
+## Getting Started
+I up my project on Firebase hosting so you can view online by the link [here](https://web-project-coderx.firebaseapp.com.)  or below if it is not working :
+https://web-project-coderx.firebaseapp.com
 
-Description
+## Description
 
-This project applying knowledge from fundamental course on CoderX. including technique: 
+This project applying knowledge from fundamental course on Coders X. Including technique: 
 + HTML 5
 + CSS
 + Javascrip
 + Firebase : Hosting of web use on Google Firebase
 
 
-Versioning
-
-Now you are using version 01 (V1.0)- This version you can view full of content of website
-Developing Version 02 (V2.0)
+## Versioning
+Version : 1.0 
+In the feature I am developing Version 2.0 with some updates: 
 +, Responsive web
 +, Put data on server
 
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Or you can send me email to improve my project 
+Email : ducanhn130897@gmail.com
 
-Authors
+## Authors
 Duc Anh Nguyen - Font-end Developer
